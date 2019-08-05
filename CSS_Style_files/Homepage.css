@@ -95,3 +95,41 @@ body {
 	font-style:italic;
 	font-size:20px;
 }
+.container{
+height:100px;
+width:500px;
+border-left:none;
+border-right:none;
+text-align:center;
+}
+.container div{
+display: inline-block;
+vertical-align: middle;
+} 
+ .column-left{ float: left; width: 10%;  height:100px;}
+.column-right{ float: right; width: 30%;  height:100px;}
+.column-center{ display: inline-block; width: 60%; height:100px;}
+
+html, body {
+    height:100%;
+}
+
+#wrapper {
+    position: relative;
+    min-height:100%;
+}
+
+#main {
+    padding-bottom: 44px;
+}
+nav {background:#FFF;float:left;}
+nav ul {text-align:center;}
+nav ul li {float:left;display:inline;}
+nav ul li:hover {background:#E6E6E6;}
+nav ul li a {display:block;padding:15px 25px;color:#444;}
+nav ul li ul {position:absolute;width:110px;background:#FFF;}
+nav ul li ul li {width:110px;}
+nav ul li ul li a {display:block;padding:15px 10px;color:#444;}
+nav ul li ul li:hover a {background:#F7F7F7;}
+nav ul li ul.fallback {display:none;}
+nav ul li:hover ul.fallback {display:block;}
